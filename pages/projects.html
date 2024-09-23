@@ -17,7 +17,7 @@
               <a class="navi-link" href="../index.html">Home</a>
             </div>
             <div>
-              <a class="navi-link" href="./projects.html">Projects</a>
+              <a class="navi-link" href="./about.html">About</a>
             </div>
           </div>
         </nav>
@@ -58,6 +58,51 @@
               A basic library management application built with mySQL,
               express.js, TypeORM, and Angular using Material UI.
             </p>
+          </article>
+          <article class="project-article">
+            <div class="project-title">
+              <h3>Etch a Sketch</h3>
+              <a href=""
+                ><img
+                  class="logo-icon"
+                  src="../icons/github-mark-white.svg"
+                  alt=""
+              /></a>
+              <a href="">
+                <div class="project-pill">Live!</div>
+              </a>
+            </div>
+            <p>Etch a sketch with HTML, CSS and Javascript.</p>
+          </article>
+          <article class="project-article">
+            <div class="project-title">
+              <h3>Calculator</h3>
+              <a href=""
+                ><img
+                  class="logo-icon"
+                  src="../icons/github-mark-white.svg"
+                  alt=""
+              /></a>
+              <a href="">
+                <div class="project-pill">Live!</div>
+              </a>
+            </div>
+            <p>A very simple calculator with HTML, CSS and Javascript.</p>
+          </article>
+          <article class="project-article">
+            <div class="project-title">
+              <h3>Rock Paper Scissors</h3>
+              <a href=""
+                ><img
+                  class="logo-icon"
+                  src="../icons/github-mark-white.svg"
+                  alt=""
+              /></a>
+              <a href="">
+                <div class="project-pill">Live!</div>
+              </a>
+            </div>
+            <p>Text based rock paper scissors with HTML, CSS and Javascript.</p>
           </article>
         </main>
       </div>
@@ -117,6 +162,10 @@
       font-family: "Fira Code", monospace;
       background-color: var(--background);
       color: #fff;
+    }
+
+    a {
+      text-decoration: none;
     }
 
     .wrap {
@@ -183,6 +232,19 @@
       display: flex;
       align-items: center;
       color: var(--green);
+    }
+
+    .project-pill {
+      margin-left: 10px;
+      color: var(--background);
+      background-color: #fff;
+      padding-left: 3px;
+      padding-right: 3px;
+      border-radius: 5px;
+    }
+
+    .project-pill:hover {
+      background-color: var(--blue);
     }
   </style>
 </html>
