@@ -53,6 +53,10 @@ html {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrap {
   min-height: 100vh;
   display: flex;
@@ -100,9 +104,40 @@ html {
   letter-spacing: 0.8rem;
 }
 
+.project-article {
+  background: var(--background-light);
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.logo-icon {
+  margin-left: 10px;
+  height: 30px;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+  color: var(--green);
+}
+
+.project-pill {
+  margin-left: 10px;
+  color: var(--background);
+  background-color: #fff;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px;
+}
+
+.project-pill:hover {
+  background-color: var(--blue);
+}
+
 @media (max-width: 768px) {
   body {
-    font-size: 1rem;
     padding: 0 25px;
   }
 
@@ -110,7 +145,6 @@ html {
     height: 120px;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
 
   .link-container {
@@ -127,7 +161,24 @@ html {
   .logo {
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
-    text-align: center;
+  }
+
+  .project-article {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+  }
+
+  .project-pill {
+    font-size: 0.9rem;
+  }
+
+  .logo-icon {
+    height: 25px;
+    margin-left: 5px;
   }
 }
 
@@ -152,6 +203,23 @@ html {
   .logo {
     font-size: 2rem;
     letter-spacing: 0.3rem;
-    text-align: center;
+  }
+
+  .project-article {
+    padding: 10px;
+  }
+
+  .project-title {
+    font-size: 1rem;
+  }
+
+  .project-pill {
+    font-size: 0.8rem;
+    margin-left: 5px;
+  }
+
+  .logo-icon {
+    height: 20px;
+    margin-left: 5px;
   }
 }
